@@ -1,32 +1,67 @@
-<!-- download this file. name it index.html. Create replit called Lesson1, and upload index.html-->
-
 <!DOCTYPE html> 
 
-<html> 
-	
+<html lang="en">
 
-	<head> 
-		<!--change title to Task 1-->
-		<title>Task 1</title>
+	<head>
+		<title> My first website </title>
 		
-	</head> 
-	
-	
-	<body> 
-
-    <!--change Heading 1 to About Me-->
-		<h1>About Me</h1>
-<p>My name is Roberto, I am 33 years old student living in Edinburgh. I am currently learning how to build a website and it's fun. </p>    <!-- add paragraph with some information about you- name, age, where you live etc. -->
-
-    <!--change Heading 2 to My family-->
-		<h2>My family</h2>
-    My parents name are Fabrizio and Fortunata. I have a younger sister called Silvia, she stays with her boyfriend and has a cat named Roni.
-
-    <!--change Heading 3 to My hobby or My favourite place-->
-    <h3>My hobby</h3>
-    I like to cook and bake cakes. Just easy cakes though nothing too fancy. 
+		<style>
+		#myfont {
+        font-family: "Comic Sans MS";
+	    }
+		h1 {
+        font-family: "Arial Black"; padding-left: 5px;
+        }
+		img { padding-left: 5px;
+		} 
 		
-	</body> 
+		</style>
+    </head>
 	
-</html> 
-	 
+	<body>
+		<div style="background-color:aqua;">
+			<h1>About me</h1>
+			
+			<p id="myfont">My name is Roberto</p>
+		
+			<h1>My favourite cities</h1>
+			<ul>
+				<li id="myfont">Rome</li>
+				<li id="myfont">Chicago</li>
+				<li id="myfont">London</li>
+			</ul>
+			
+			<h1>My favourite food</h1>
+			<ul>
+				<li id="myfont">Pizza</li>
+				<li id="myfont">Fettuccine</li>
+				<li id="myfont">Salmon</li>
+			</ul>
+		</div>
+		<div style="background-color:lightyellow;">		
+		<table id="myfont" border="1">
+			<tr><!--rows-->
+				<td>Name</td>
+				<td>Age</td>
+				<td>Nickname</td>
+			</tr>
+			<tr>
+				<td>Roberto</td>
+				<td>33</td>
+				<td>roby90</td>
+		</table>
+		</div>
+			</tr>
+		<div style="background-color:pink;">	
+		<h1>My hobby</h1>
+		<img src="lego.jpg" width="300px">
+			
+		</div>
+		
+		<a href="mygroup.html">My group</a>
+    <a href="mytown.html">My town</a>
+    <a href="contact.html">Contact</a>
+	</body>
+
+
+</html>

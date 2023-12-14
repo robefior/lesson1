@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> 
+</html>
+
+<body>
+  <div style="background-color:#FBE9E7">
+    <a href="https://www.facebook.com/" target="_blank">
+      <img src="Images/facebookicon.png" width="30px"></a>
+    <a href="tel:0131555687">
+      <img src="Images/phoneicon.png" width="30px"></a>
+    <a href="mailto:mail@gmail.com">
+      <img src="Images/emailicon.png" width="30px"></a>
+  </div>
+  <div style="background-color:#EBF5FB">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.781946903628!2d-3.1919460228568886!3d55.953151176541496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78fb1aef4fb%3A0x2fe34754335241ea!2sWaverley%20Steps%2C%201%20Princes%20St%2C%20Edinburgh%20EH2%202EQ!5e0!3m2!1sen!2suk!4v1702552560745!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div style="background-color:#F2F4F4">
+   <form>
+    <label for="fname">First name:</label>
+    <!--br inserts a single line break-->
+    <br>
+    <!--defines a single line input field for text input.-->
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br><br>
+
+    <!--radio button to select option-->
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <br><br>
+
+    <!--dropbox <menu-->
+    <label for="location">Location:</label><br>
+      <select id="location" name="location">
+    <option value="Midlothian">Midlothian</option>
+    <option value="West Lothian">West Lothian</option>"
+    <option value="East Lothian">East Lothian</option>
+    <option value="Edinburgh">Edinburgh</option>
+      </select>
+     <br><br>
+
+    <label for="message">Message:</label><br>
+
+      <textarea id="message" name="message" rows="4" cols="50">"
+      </textarea>
+     <br><br>
+
+     <input type="submit" value="submit">   
+    </form>
+  </div>
+</body>
